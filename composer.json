@@ -1,9 +1,9 @@
 
 {
-    "name": "linhgname/message_queue",
-    "description": "php message queue wrapper",
+    "name": "linhgname/test_haha",
+    "description": "php test",
     "license": "MIT",
-    "keywords": ["message queue"],
+    "keywords": ["php test haha"],
     "version": "1.0.0",
     "authors": [
         {
@@ -17,7 +17,7 @@
  
     "autoload": {
         "psr-0": {
-            "Jenner\\Zebra\\MessageQueue": "src/"
+            "linhg666\\hahha\\testhaha": "src/"
         }
     }
 }
