@@ -1,23 +1,25 @@
-
 {
-    "name": "linhgname/test_haha",
-    "description": "php test",
-    "license": "MIT",
-    "keywords": ["php test haha"],
-    "version": "1.0.0",
-    "authors": [
-        {
-            "name": "linhg",
-            "email": "linhg666@sina.cn"
-        }
-    ],
-    "require": {
-        "php": ">=5.3.0"
-    },
- 
-    "autoload": {
-        "psr-0": {
-            "linhg666\\hahha\\testhaha": "src/"
-        }
-    }
+"name": "haha/log",
+"description": "Common interface for logging libraries",
+"keywords": ["psr", "psr-3", "log"],
+"license": "MIT",
+"authors": [
+{
+"name": "haha",
+"homepage": ""
+}
+],
+"require": {
+"php": ">=5.3.0"
+},
+"autoload": {
+"psr-4": {
+"Psr\\Log\\": "Psr/Log/"
+}
+},
+"extra": {
+"branch-alias": {
+"dev-master": "1.0.x-dev"
+}
+}
 }
